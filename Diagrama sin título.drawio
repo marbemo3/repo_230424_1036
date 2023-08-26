@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-26T19:09:30.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9lzLXVbb-oioGBF2OEpb" version="21.6.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-26T19:48:21.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="owLYOJ4iGqYjYtfSp0bu" version="21.6.9" type="github" pages="2">
   <diagram name="Página-1" id="QnMALh-OP8fd0V_o8KD_">
-    <mxGraphModel dx="680" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,7 +124,36 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qDvj0nQ-XF3atELoJMsR-1" value="&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 16px; color: rgb(240, 243, 246); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(10, 12, 16);&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;La empresa dispone de una serie de coches para su venta. Se necesita conocer la matrícula, marca y modelo, el color y el precio de venta de cada coche.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Los datos que interesa conocer de cada cliente son el RFC, nombre, dirección, ciudad y número de teléfono: además, los clientes se diferencian por un código interno de la empresa que se incrementa automáticamente cuando un cliente se da de alta en ella.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Un cliente puede comprar tantos coches como desee a la empresa.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Un coche determinado solo puede ser comprado por un único cliente.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;El concesionario también se encarga de llevar a cabo las revisiones que se realizan a cada coche.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Cada revisión tiene asociado un código que se incrementa automáticamente por cada revisión que se haga.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;De cada revisión se desea saber si se ha hecho cambio de filtro, si se ha hecho cambio de aceite, si se ha hecho cambio de frenos u otros.&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Los coches pueden pasar varias revisiones en el concesionario.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="130" width="980" height="30" as="geometry" />
+          <mxGeometry y="180" width="980" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="if0f3MCwwdVZkPBVHPjA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="if0f3MCwwdVZkPBVHPjA-1" target="if0f3MCwwdVZkPBVHPjA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="if0f3MCwwdVZkPBVHPjA-1" value="Cliente&lt;br&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="if0f3MCwwdVZkPBVHPjA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="if0f3MCwwdVZkPBVHPjA-2" target="if0f3MCwwdVZkPBVHPjA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="if0f3MCwwdVZkPBVHPjA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="if0f3MCwwdVZkPBVHPjA-2" target="if0f3MCwwdVZkPBVHPjA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="if0f3MCwwdVZkPBVHPjA-2" value="Coches" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="if0f3MCwwdVZkPBVHPjA-5" value="Venta" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="414" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="if0f3MCwwdVZkPBVHPjA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="if0f3MCwwdVZkPBVHPjA-6" target="if0f3MCwwdVZkPBVHPjA-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="729.9999999999998" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="if0f3MCwwdVZkPBVHPjA-6" value="Precio" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="if0f3MCwwdVZkPBVHPjA-9" value="Revision" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="670" y="524" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
